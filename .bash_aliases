@@ -43,6 +43,8 @@ function dotfiles() {
             cp -f "$dest/$i" "${HOME}/"
         done
         echo "files loaded"
+    else
+        echo "usage: dotfiles save|load"
     fi
 }
 
