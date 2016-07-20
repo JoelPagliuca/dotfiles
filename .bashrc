@@ -12,3 +12,5 @@ export BT_MOUSE_MAC="00:1F:20:98:6A:36"
 
 source ~/.bash_aliases
 source ~/.bash_completion
+source ~/.bash_profile
+

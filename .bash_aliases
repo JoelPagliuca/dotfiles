@@ -22,7 +22,7 @@ alias mouse-connect="bt-input -c $BT_MOUSE_MAC"
 alias mouse-disconnect="bt-input -d $BT_MOUSE_MAC"
 
 function dotfiles() {
-    files=( ".bashrc" ".bash_aliases" ".bash_completion" )
+    files=( ".bashrc" ".bash_aliases" ".bash_completion" ".bash_profile" )
     dest="${HOME}/.dotfiles/"
     
     if [ "$1" = "save" ]
