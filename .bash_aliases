@@ -14,6 +14,7 @@ pip() {
 
 alias pbcopy="xclip -selection clipboard -i"
 alias pbpaste="xclip -selection clipboard -o"
+alias open="xdg-open"
 
 # brackets spawn a new shell
 alias refresh="(cd && source .bashrc)"
