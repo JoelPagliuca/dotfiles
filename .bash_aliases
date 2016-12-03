@@ -2,6 +2,10 @@
 #     ALIASES
 ####################
 
+# Standard bash aliases
+alias la="ls -la"
+alias ll="ls -l"
+
 pip() {
   if [ "$1" = "install" -o "$1" = "bundle" ]; then
     cmd="$1"
